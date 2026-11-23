@@ -4,5 +4,7 @@
 // Should return true once for each press of the button.
 bool buttonPressed() {
   // TODO Task 3 (Developer C): debounce, and detect one press (not a held button).
+  delay(BUTTON_DEBOUNCE);
+  
   return digitalRead(BUTTON_PIN) == LOW;
 }
