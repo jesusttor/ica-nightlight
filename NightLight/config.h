@@ -24,6 +24,7 @@ enum Mode { MODE_OFF, MODE_AUTO, MODE_ON };
 
 // ---------- Button settings (Task 3, Developer C) ----------
 // TODO Task 3: add any settings you need here (for example: const unsigned long BUTTON_DEBOUNCE_MS = 40;)
+const unsigned int BUTTON_DEBOUNCE = 50;
 
 // ---------- Logger settings (Task 4, Project Manager) ----------
 // TODO Task 4: add any settings you need here (for example: const unsigned long LOG_INTERVAL_MS = 500;)
