@@ -3,8 +3,6 @@
 
 int readLight() {
   // TODO Task 1 (Developer A): average SENSOR_SAMPLES readings.
-  // Read the light sensor to initialize the reading.
-  digitalRead(LIGHT_SENSOR_PIN);
   // Return the averaged reading.
   int total = 0;
   for (int i = 0; i < SENSOR_SAMPLES; i++) {
@@ -13,4 +11,4 @@ int readLight() {
   return total / SENSOR_SAMPLES;
 }
 
-// TODO Task 8 (Project Manager): add lightLabel() below this line.
+// TODO Task 8 (Project Manager): add lightLabel() below this line
